@@ -67,10 +67,7 @@ endmodule
 
 
 **RTL realization**
-Exp2_1 ![Screenshot (21)](https://github.com/user-attachments/assets/7a297d0e-1882-4a08-812a-10691b8805c2)
-
-
-Exp2_2 ![Screenshot (23)](https://github.com/user-attachments/assets/4823f014-278c-4390-84e0-4e20733658c5)
+![image](https://github.com/user-attachments/assets/114a75a4-d17e-4511-8457-7bf9d9861f0a)
 
 
 

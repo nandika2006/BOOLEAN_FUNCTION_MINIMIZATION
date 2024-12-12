@@ -1,4 +1,11 @@
-# BOOLEAN_FUNCTION_MINIMIZATION
+**NAME:** Nandika S
+
+
+**REG-NO:** 24010030
+
+
+## EXPERIMENT-1 BOOLEAN FUNCTION MINIMIZATION
+
 
 **AIM:**
 
@@ -16,10 +23,16 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory** 
 
+Implementing Boolean functions in Verilog HDL (Hardware Description Language)
+involves translating the simplified Boolean expressions into Verilog code to describe the
+behavior of digital circuits. The basic building blocks in Verilog is module. The module
+represent a combinationa circuit. Use logical operators (&, , ~, ^) to implement Boolean
+functions directly. Use built-in gate primitives for basic functions: Use University
+program VWF to verify the functionality of your Verilog modules. Create waveform and
+check outputs against expected results
+
 ![image](https://github.com/user-attachments/assets/3efa61a9-e383-48b4-968b-c5039f11a9fa)
 
-
-**Logic Diagram**
 
 **Procedure**
 
@@ -35,7 +48,6 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-```
 
 module Exp2_1(a,b,c,d,f1);
 input a,b,c,d;
@@ -49,11 +61,9 @@ output f2;
 assign f2=((~y&z)|(x&y)|(w&y));
 endmodule
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+**Truth Table**
 
-Developed by: RegisterNumber:24010030
-
-```
+![image](https://github.com/user-attachments/assets/1c5f3fe9-ca4b-42e1-b616-23f746e1def1)
 
 
 **RTL realization**
